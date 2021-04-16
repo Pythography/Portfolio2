@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <title> First CSS Exp</title>
+        <style>
+            #Quotes{
+                margin: auto;
+                max-width:1300px;
+                padding:1em;
+            }
+            a{
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            color: black;
+            }
+            a:hover {
+            color: #ccc;
+            }
+            .Home h1{
+            text-align: center;
+            }
+            #Quotes p{
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            }
+            .Text p{
+                width:50%;
+                margin: auto;
+                }
+            
+           .row {
+            display: flex;
+               flex-wrap: wrap;
+            }
+
+            .column {
+                flex: 0%;
+                padding: 5px;
+                }
+             
+            @media (max-width: 768px){
+                .column{
+                flex:initial;
+                }
+                .Text p{
+                width: 100%;
+                }
+                
+            
+        }
+                
+        </style>
+    </head>
+    <body>
+    <div id="Quotes">
+        <div class="Home"><a href="index.html"><h1>Portfolio</h1></a></div>    
+        <div class="row">
+  <div class="column">
+    <img src="images/PortfolioPiece6.JPG" alt="Quote1" style="width:100%">
+      <p>This is the first half of the page.</p>
+  </div>
+  <div class="column">
+    <img src="images/PortfolioPiece6v2.JPG" alt="Quote2" style="width:136%">
+    <p>This is the second half of the Page.</p>  
+  </div>
+    <div class="Text">
+        <p>This was done in Brackets and I had to first make this in Figma. I had to design the page and then make cards for the episodes on a  seperate page. The first page is 2 columns with a description and the name of the cast on it, but the second page has 4 columns with 2 rows. The image stays the same for the episodes but the description changes per episode. It was my first time ever using CSS so I like looking  back at how I started. <a href="https://pythography.github.io/Class-Website/midterm/index.html"> <strong>Link for Github page.</strong></a> </p>
+            </div>        
+</div>
+        </div>
+        
+    </body>
+</html>

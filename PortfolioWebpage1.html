@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <title>Emotional Design</title>
+        <style>
+            #Quotes{
+                margin: auto;
+                max-width:1300px;
+                padding:1em;
+            }
+            a{
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            color: black;
+            }
+            a:hover {
+            color: #ccc;
+            }
+            .Home h1{
+            text-align: center;
+            }
+            #Quotes p{
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            }
+            .Text p{
+                width:50%;
+                margin: auto;
+                }
+            
+           .row {
+            display: flex;
+               flex-wrap: wrap;
+            }
+
+            .column {
+                flex: 0%;
+                padding: 5px;
+                }
+             
+            @media (max-width: 768px){
+                .column{
+                flex:initial;
+                }
+                .Text p{
+                width: 100%;
+                }
+                
+            
+        }
+                
+        </style>
+    </head>
+    <body>
+    <div id="Quotes">
+        <div class="Home"><a href="index.html"><h1>Portfolio</h1></a></div>    
+        <div class="row">
+  <div class="column">
+    <img src="images/PortofolioPiece3.JPG" alt="Quote1" style="width:100%">
+      <p>This is the first half of the page.</p>
+  </div>
+  <div class="column">
+    <img src="images/PortofolioPiece3v2.JPG" alt="Quote2" style="width:100%">
+    <p>This is the second half of the Page.</p>  
+  </div>
+    <div class="Text">
+        <p>This was done in Figma and used many different layouts so the oage would look differnt for a different section of the page. For example the color wheel part of the page is almost like a banner that includes an article about the color wheel that I had to find and make it come together. There was only 1 page so the nav bar didn't take you anywhere but it was there for design.<a href="https://www.figma.com/proto/d7avu6reIO5ZhWZjbYb1qX/Midterm-Mood-Board?node-id=2%3A0&scaling=min-zoom"> <strong>Link for Figma design.</strong></a> </p>
+            </div>        
+</div>
+        </div>
+        
+    </body>
+</html>
